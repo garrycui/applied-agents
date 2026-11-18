@@ -6,14 +6,10 @@
 
 **Practical AI agents for real life and real work, built and used by a cloud architect.** Each one solves a real problem I had, runs on my own data first, and ships here with the real numbers.
 
-实战 Agent：把 AI agent 用在真实生活和工作里。每一个都先在我自己身上跑通，再公开。
-
 ## 🛒 Featured: Weee! Grocery Autopilot
 
 **Shop on Weee!? Stop building your weekly cart by hand.**
 This Claude agent reads your own Weee! order history, learns what you really buy, and every week puts a ready-to-approve list into your cart, using this week's real unit prices instead of discount labels. You click Order. It never checks out.
-
-**用 Weee! 买菜的人：每周不用再手动凑购物车。** 它读你自己的 Weee! 历史订单，学会你的习惯，每周按真实单价出一份清单，你点头后加进购物车；下单永远是你自己点。
 
 | You say | It does |
 |---|---|
@@ -47,6 +43,5 @@ More coming. ⭐ Star or watch the repo to get the next one.
 ## Follow along
 - YouTube: _coming soon_
 - LinkedIn: _coming soon_
-- 小红书 / Bilibili: _coming soon_
 
 MIT License · by [Gary Cui](https://github.com/garrycui) · Not affiliated with Weee! Inc.

@@ -6,8 +6,6 @@
 
 **A Claude agent that does your weekly Weee! shopping list. It learns from your own order history, uses this week's real unit prices (not discount labels), fills your cart after you say yes, and never checks out.**
 
-**给 Weee! 用户：每周自动出买菜清单、加进购物车的 Agent。读你自己的历史订单，比真实单价，你确认后才加购物车，永远不帮你下单。**
-
 Plugin name: `grocery-autopilot` · Part of [Applied Agents](../../README.md) · Weee! supported today, other stores via [adapters](#add-your-store).
 
 ## Is this for you?
@@ -75,14 +73,3 @@ MIT
 
 ---
 Built by [Gary Cui](https://github.com/garrycui) as part of **Applied Agents**. If it saves you time or money, a ⭐ on the repo helps more people find it.
-
----
-
-### 中文简介
-**按你自己的购买习惯和这周的真实价格，每周出一份买菜清单；你确认后自动加进购物车，永远不帮你下单。**
-- 读你自己的历史订单，学会你常买什么、多久买一次、平时付多少钱
-- 比单位价，不看折扣标签；"打折但其实更贵"的会被识别出来并跳过
-- 每周推荐 1–2 样你常买的品牌和品类里值得试的新东西
-- 调料干货不会每周都塞进购物车，只提醒
-- 你说"以后不买 X"，规则就跟着改
-- 目前支持 Weee!，其他超市可以按模板加
