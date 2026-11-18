@@ -1,0 +1,10 @@
+# Personal data never belongs in this repo
+data/
+*.orders.json
+orders.json
+staples.csv
+profile.md
+settings.json
+runs.md
+__pycache__/
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "name": "grocery-autopilot",
+  "displayName": "Grocery Autopilot",
+  "version": "0.1.0",
+  "description": "Learns your grocery habits from your own order history, builds a weekly list that checks real unit prices (and skips fake deals), and fills your online cart after you approve. Never checks out. Ships with a Weee! adapter.",
+  "author": {
+    "name": "Gary Cui",
+    "url": "https://github.com/garrycui"
+  },
+  "homepage": "https://github.com/garrycui/applied-agents/tree/main/plugins/grocery-autopilot",
+  "repository": "https://github.com/garrycui/applied-agents",
+  "license": "MIT",
+  "keywords": ["grocery", "shopping", "weee", "browser-agent", "price-comparison", "personal-agent"]
+}

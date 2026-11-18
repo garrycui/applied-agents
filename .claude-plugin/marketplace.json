@@ -1,0 +1,17 @@
+{
+  "name": "applied-agents",
+  "owner": {
+    "name": "Gary Cui",
+    "url": "https://github.com/garrycui"
+  },
+  "metadata": {
+    "description": "Applied Agents: practical AI agents for real life and real work."
+  },
+  "plugins": [
+    {
+      "name": "grocery-autopilot",
+      "source": "./plugins/grocery-autopilot",
+      "description": "Weekly grocery list from your own habits and this week's real prices; fills your cart after you approve, never checks out."
+    }
+  ]
+}
