@@ -1,10 +1,27 @@
-# Grocery Autopilot
+<p align="center">
+  <img src="../../docs/banner.png" alt="Weee! Grocery Autopilot" width="100%">
+</p>
 
-**Your weekly grocery list, built from your own habits and this week's real prices. It fills your cart after you say yes, and it never checks out.**
+# Weee! Grocery Autopilot
 
-Part of [Applied Agents](../../README.md), practical AI agents for real life and real work.
+**A Claude agent that does your weekly Weee! shopping list. It learns from your own order history, uses this week's real unit prices (not discount labels), fills your cart after you say yes, and never checks out.**
 
-<!-- Demo GIF goes here: docs/demo.gif (list table → approval → filled cart) -->
+**给 Weee! 用户：每周自动出买菜清单、加进购物车的 Agent。读你自己的历史订单，比真实单价，你确认后才加购物车，永远不帮你下单。**
+
+Plugin name: `grocery-autopilot` · Part of [Applied Agents](../../README.md) · Weee! supported today, other stores via [adapters](#add-your-store).
+
+## Is this for you?
+- You order from **Weee!** every week and rebuild roughly the same cart each time.
+- You like deals but don't trust the discount labels.
+- You want the list in minutes, and you still want to press Order yourself.
+
+## How a week looks
+1. **Wednesday (or your shopping day):** say "run grocery autopilot" or let a scheduled task do it.
+2. It reads your cart (items already there stay), last week's unordered items, this week's deals and your habits.
+3. It shows you a list with a reason for every item, the real unit price, and the total vs. your budget.
+4. You say "looks good" or "swap the pork". It fills the cart. **You** place the order.
+
+<!-- Demo GIF goes here: docs/demo.gif (list table -> approval -> filled cart) -->
 
 ## What it does
 - **Learns your habits from your own order history**: what you buy, how often, how much you usually pay, which categories you're price-sensitive in, and what you've quietly stopped buying.
@@ -13,7 +30,7 @@ Part of [Applied Agents](../../README.md), practical AI agents for real life and
 - **Adds 1–2 new things to try** from brands and categories you already like.
 - **Doesn't treat pantry items as weekly**: sauces, rice and other slow-moving items get a reminder instead of landing in your cart every week.
 - **Learns from your feedback**: say "never buy X" or "more variety" and the rules change.
-- **Fills the cart only after you approve. Never checks out.**
+- **Fills the Weee! cart only after you approve. Never checks out.**
 
 ## Real results (author's own account)
 - Read 75 orders over 18 months: 1,110 line items, 476 different products.

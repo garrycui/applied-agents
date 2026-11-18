@@ -11,7 +11,7 @@
     {
       "name": "grocery-autopilot",
       "source": "./plugins/grocery-autopilot",
-      "description": "Weekly grocery list from your own habits and this week's real prices; fills your cart after you approve, never checks out."
+      "description": "Weekly Weee! grocery list from your own habits and real unit prices; fills your cart after you approve, never checks out."
     }
   ]
 }
